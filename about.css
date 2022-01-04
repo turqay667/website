@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200&family=Nova+Round&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --sans: "M PLUS 1', sans-serif"
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#head{
+    background-color: #6666ff;
+}
+
+#first h1{
+font: 400 42px var(--sans);
+    color: #4d4dff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    letter-spacing: 5px;
+}
+.web{
+    display: flex;
+    justify-content: space-between;
+}
+.web div:nth-child(1){
+    width: 600px;
+}
+img{
+    width: 500px;
+    border-radius: 30px;
+    margin-left:80px;
+}
+
+.web h2{
+    font: bold 24px var(--sans);
+    color: #8A2BE2;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.web p{
+    line-height: 24px;
+    color:#A9A9A9;
+    padding-bottom: 40px;
+    font-family: var(--sans);
+}
+
